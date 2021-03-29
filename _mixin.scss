@@ -1,0 +1,88 @@
+@mixin display1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+@mixin display2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+   
+}
+@mixin display-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+   
+}
+
+@mixin display-nav {
+    display: flex;
+    justify-content:flex-end ;
+    align-items: flex-end;
+    flex-direction: row;
+    
+}
+
+@mixin display-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+   
+}
+@mixin display-img2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+   
+}
+
+
+
+
+@mixin large-text {
+    font: {
+        size: 26px;
+        weight: 600;
+        family: 'Raleway', sans-serif;
+    }  
+    letter-spacing: 1px;
+    line-height: 32px; 
+}
+@mixin large-text2 {
+    font: {
+        size: 29px;
+        weight: 600;
+        family: 'Raleway', sans-serif;
+    }    
+}
+@mixin large-title {
+    font: {
+        size: 66px;
+        weight: 900;
+        family: 'Open Sans', sans-serif;
+    } 
+    letter-spacing: 12px;   
+}
+@mixin large-title-footer {
+    font: {
+        size: 24px;
+        weight: 500;
+        family: 'Open Sans', sans-serif;
+    }    
+}
+@mixin large-title-footer-h2 {
+    font: {
+        size: 22px;
+        weight: 500;
+        family: 'Open Sans', sans-serif;
+    }   
+   
+}
